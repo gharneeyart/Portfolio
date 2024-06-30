@@ -34,7 +34,7 @@ const Header = () => {
   }, [navbar]);
 
   return (
-    <nav className="bg-white shadow fixed z-50 right-0 left-0">
+    <nav className="bg-white shadow fixed z-50 right-0 left-0 w-full">
       <div className="max-w-7xl mx-auto px-4 lg:px-12 ">
         <div className="flex justify-between h-20 items-center">
           <div className="flex-shrink-0">
