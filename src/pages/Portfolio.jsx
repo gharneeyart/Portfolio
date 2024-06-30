@@ -4,7 +4,7 @@ import { IoLogoGithub } from "react-icons/io";
 
 const Portfolio = () => {
   return (
-    <div className='flex flex-col justify-center w-full py-12 items-center mx-auto px-6 md:px-12 font-roboto'>
+    <div className='flex flex-col justify-center w-full py-12 items-center mx-auto px-4 md:px-12 font-roboto'>
         <div className="w-full flex flex-col justify-between">
         <div className="flex flex-col md:flex-row justify-between w-full items-center text-center md:text-start mb-12">
             <div className="">

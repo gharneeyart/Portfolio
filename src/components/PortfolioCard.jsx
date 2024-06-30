@@ -7,7 +7,7 @@ const PortfolioCard = () => {
   return (
     <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-6xl gap-8 lg:gap-16">
         {portfolios.map((portfolio)=>(
-            <div className='flex flex-col justify-between w-[340px] md:[350px] h-[400px] rounded-t-md shadow-xl' key={portfolio.id}>
+            <div className='flex flex-col justify-between w-[335px] md:[350px] h-[400px] rounded-t-md shadow-xl ' key={portfolio.id}>
             <div className="h-[63%]  rounded-md">
                 <img src={portfolio.image} alt="" className='object-cover h-full rounded-md'/>
             </div>
