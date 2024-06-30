@@ -12,7 +12,7 @@ function App() {
  
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <div id="home">
         <Home />
       </div>
