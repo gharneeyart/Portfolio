@@ -35,7 +35,7 @@ const Header = () => {
 
   return (
     <nav className="bg-white shadow fixed z-50 right-0 left-0 ">
-      <div className="w-full mx-auto px-4 lg:px-12 ">
+      <div className="w-full mx-auto md:px-4 lg:px-12 ">
         <div className="flex justify-between h-20 items-center">
           <div className="flex-shrink-0">
             <Link to="home" className="text-xl font-bold text-gray-600 flex items-center"><img src={Logo} alt="" />JohnDev,</Link>
