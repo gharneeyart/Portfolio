@@ -52,14 +52,14 @@ import Logo from '../assets/icons/image 1.png'
 
 const Footer = () => {
   return (
-    <footer className="bg-white shadow">
+    <footer className="bg-teal-50 shadow">
       <div className="max-w-7xl mx-auto px-4 lg:px-12 py-6">
-        <div className="flex flex-col md:flex-row justify-between items-center border-b-[1.3px] border-b-gray-300 pb-4">
+        <div className="flex flex-col md:flex-row justify-between items-center border-b-[1.5px] border-b-gray-400 pb-4">
           <div className="flex-shrink-0 mb-4 md:mb-0">
           <Link to="home" className="text-xl font-bold text-gray-600 flex items-center"><img src={Logo} alt="" />JohnDev,</Link>
           </div>
 
-          <div className="flex flex-wrap justify-center md:justify-start md:space-x-2 lg:space-x-6 border-t md:border-t-0 pt-4 md:pt-0">
+          <div className="flex flex-wrap justify-center md:justify-start md:space-x-2 lg:space-x-6 pt-4 md:pt-0">
             <Link
               to="home"
               className="text-gray-800 hover:text-gray-600 px-3 py-2 text-sm font-medium"
@@ -108,26 +108,26 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row justify-between items-center">
-          <div className="flex flex-col md:flex-row md:gap-4 text-center md:text-left mb-4 md:mb-0">
+        <div className="flex flex-col md:flex-row justify-between items-center mt-2">
+          <div className="flex flex-col md:flex-row md:gap-4 text-center md:text-left mb-4 md:mb-0 mt-4 md:mt-0" >
             <p>Code with 💖 by Ganiyat</p>
           </div>
-          <div className="flex flex-wrap justify-center md:justify-start md:space-x-6">
+          <div className="flex flex-wrap justify-center md:justify-start md:space-x-6 ">
             <Link
               to="privacy-policy"
-              className="text-gray-800 hover:text-gray-600 px-3 py-2 text-sm font-medium"
+              className="text-gray-800 hover:text-gray-600 px-2 md:px-3 py-2 text-sm font-medium"
             >
               Privacy Policy
             </Link>
             <Link
               to="terms-of-service"
-              className="text-gray-800 hover:text-gray-600 px-3 py-2 text-sm font-medium"
+              className="text-gray-800 hover:text-gray-600 px-2 md:px-3 py-2 text-sm font-medium"
             >
               Terms of Service
             </Link>
             <Link
               to="cookie-settings"
-              className="text-gray-800 hover:text-gray-600 px-3 py-2 text-sm font-medium"
+              className="text-gray-800 hover:text-gray-600 px-2 md:px-3 py-2 text-sm font-medium"
             >
               Cookie Settings
             </Link>
