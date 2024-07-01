@@ -12,7 +12,7 @@ const Portfolio = () => {
             <h1 className='text-4xl font-bold mt-4'>My Portfolio</h1>
             </div>
             <div className="mt-6 md:mt-0 ">
-                <button className='border bg-purple-500 text-white flex p-4 rounded-md'><span className='pr-2'><IoLogoGithub size={20} className='text-white'/></span>Visit My GitHub</button>
+                <button className='bg-purple-500 text-white flex p-4 rounded-md '><span className='pr-2 hover:text-purple-500'><IoLogoGithub size={20} className='text-white'/></span>Visit My GitHub</button>
             </div>
         </div>
         <div className="w-full">
